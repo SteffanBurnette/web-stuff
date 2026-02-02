@@ -31,3 +31,18 @@ button{
 #btn {
     background: darkred;
 }
+
+#save-btn {
+    background: rgb(3, 95, 102);
+}
+
+#entries {
+    display: flex;
+    /*border-width: 40px;*/
+    border-color:brown;
+    border: 10px;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    
+}
