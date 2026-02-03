@@ -21,5 +21,7 @@ function increment(){
 function save(){
     console.log(count)
     entries += String(count) + " -> "
-    previousEntries.innerText = entries 
+    previousEntries.textContent = entries 
+    count = 0
+    countEl.textContent = count
 }

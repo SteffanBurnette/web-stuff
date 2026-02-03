@@ -1,0 +1,33 @@
+<!doctype html/>
+<html>
+    <head>
+        <link rel = "stylesheet" href = "basketball.css"/>
+
+    </head>
+    <body>
+        <div id = "scoreBoard">
+            <div>
+                <h1 class = "team">HOME</h1>
+                <h2 class = "score" id = "homeScore">0</h2>
+                <div class = "btn-style">
+                    <button class = "btn" id = "home1" onclick = "add1()">+1</button>
+                    <button class = "btn" id = "home2" onclick = "add2()">+2</button>
+                    <button class = "btn" id = "home3" onclick = "add3()">+3</button>
+                    
+                </div>
+            </div>
+            <div>
+                <h1 class = "team">GUEST</h1>
+                <h2 class = "score" id = "guessScore">0</h2>
+                 <div class = "btn-style">
+                    <button class = "btn" id = "guess1" onclick = "add1G()">+1</button>
+                    <button class = "btn" id = "guess2" onclick = "add2G()">+2</button>
+                    <button class = "btn" id = "guess3" onclick = "add3G()">+3</button>
+                    
+                </div>
+            </div>
+        </div>
+
+        <script src = "basketball.js"></script>
+    </body>
+</html>
