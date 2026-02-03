@@ -1,0 +1,31 @@
+h1 {
+    color: goldenrod;
+}
+
+body {
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-weight: bold;
+    padding: 15%;
+    font-family: 'Trebuchet MS',  'Lucida Sans Unicode';
+    text-align: center;
+}
+
+
+#message-el{
+    font-style: italic;
+}
+
+#startGame{
+    background-color: yellow;
+    padding: 5px;
+    width: 150px;
+    color: green;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
