@@ -29,3 +29,15 @@ body {
     border: none;
     border-radius: 5px;
 }
+
+#newCard{
+    background-color: yellow;
+    padding: 5px;
+    width: 150px;
+    color: green;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+
+}
