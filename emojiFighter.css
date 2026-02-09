@@ -1,0 +1,21 @@
+#fightButton{
+    background-color: orange;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+
+#title{
+    color: orange;
+    text-shadow: 2px 2px 5px grey;
+}
+
+#stage{
+    color: orange;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
